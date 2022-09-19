@@ -31,10 +31,10 @@ public class MainTarea1 {
         //Mostramos en pantalla
         JOptionPane.showMessageDialog(null,
                 "\nNombre: " + nombre +
-                "\nSalario semanal: " + SSemanal +
-                "\nSalario mensual bruto: "+ TotalSin +
-                "\nDeducciones mensuales: " + TotalDeduc+
-                "\nSalario mensual con deducciones: " + TotalCon);
+                "\nSalario semanal= " + SSemanal +
+                "\nSalario mensual bruto= "+ TotalSin +
+                "\nDeducciones mensuales 9.34%= " + TotalDeduc+
+                "\nSalario mensual neto= " + TotalCon);
     }
      //Calculamos el salario mensual con deducciones
      public static double deducciones(double SalarioSemanal){
